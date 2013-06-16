@@ -1,0 +1,16 @@
+{
+  "name": "my-local-ip",
+  "description": "tell me my local ip address",
+  "version": "0.0.0",
+  "homepage": "https://github.com/dominictarr/my-local-ip",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dominictarr/my-local-ip.git"
+  },
+  "bin": "./index.js",
+  "scripts": {
+    "test": "set -e; for t in test/*.js; do node $t; done"
+  },
+  "author": "Dominic Tarr <dominic.tarr@gmail.com> (http://dominictarr.com)",
+  "license": "MIT"  
+}
