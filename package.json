@@ -7,10 +7,11 @@
     "type": "git",
     "url": "git://github.com/dominictarr/my-local-ip.git"
   },
-  "bin": "./index.js",
+  "main": "get_ip.js",
+  "bin": "./get_ip.js",
   "scripts": {
     "test": "set -e; for t in test/*.js; do node $t; done"
   },
   "author": "Dominic Tarr <dominic.tarr@gmail.com> (http://dominictarr.com)",
-  "license": "MIT"  
+  "license": "MIT"
 }
